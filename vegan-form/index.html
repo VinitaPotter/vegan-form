@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vegans in India</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        Vegans in India
+    </header>
+    <main>
+        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, repellat non. Suscipit at sit mollitia ea asperiores expedita voluptates accusamus, sapiente quo eum quos vitae ullam nesciunt pariatur reprehenderit dolor sequi vel quam, eos officia doloribus! Totam eum dolore iste ipsa? Cupiditate ut similique aperiam, blanditiis eum at numquam iure rem nostrum sed, nesciunt dolor porro rerum non unde optio! Quis quod velit aliquam aut, ea nisi provident, asperiores eligendi quisquam voluptate rem, corporis veniam necessitatibus? Non rem provident tempore!</p>
+        <form action="http://localhost:3000/" method="POST">
+            <fieldset>
+                <legend>Personal information:</legend>
+                First name:
+                <input type="text" name="firstname" value="firstname"><br>
+                Last name:
+                <input type="text" name="lastname" value="lastname"><br>
+                Email:
+                <input type="email" name="email" value="email"><br>
+            </fieldset>
+            <div>
+                Why are you vegan?
+                    <input type="radio" name="why" value="animal"> Animals
+                    <input type="radio" name="why" value="environment"> Environment
+                    <input type="radio" name="why" value="health"> health
+                    <input type="radio" name="why" value="all"> All of the above<br>
+            </div>
+            <div>        
+                How long have you been vegan?
+                    <select name="years">
+                        <option value="1">less than a year</option>
+                        <option value="2">1-2 years</option>
+                        <option value="3">2-5 years</option>
+                        <option value="4">5-10 years</option>
+                        <option value="5">10-15 years</option>
+                        <option value="6">more than 15 years</option>
+                    </select><br>
+            </div>
+            <div id="final">
+                <input id="submit" onclick="formSubmit()" type="submit" value="Submit">
+                <button id="graphButton" type="button">Graph</button>
+            </div>
+        </form>
+        <p><a href= "#privacy">Privacy details</a></p>
+        <canvas id="graph">Graph</canvas>
+        <div class="moreDetails">
+            <div class="information">
+                <p>What is veganism?</p>
+                <p>Learn more: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum eligendi officia assumenda cum omnis beatae facere inventore delectus temporibus.</p>
+            </div>
+            <div class ="about">
+                <p>About me</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam officia asperiores doloribus placeat delectus consequuntur perspiciatis?</p>
+            </div>
+            <div class ="contact">
+                <p>Contact</p>
+                <p><a href="fantasticbeast"> Blog: The Fantastic vegans </a></p>
+                <p>Email: thefantasticvegans@gmail.com</p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

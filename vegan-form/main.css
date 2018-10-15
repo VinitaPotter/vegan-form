@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Yatra+One');
+
+body {
+    margin: auto 50px;
+    font-family: 'Mali', cursive;
+    line-height: 150%;
+    color: #267191;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    font-family: 'Yatra One', cursive;
+    font-size: 2.5em;
+    margin-top: 50px;
+    color: #26A65B;
+}
+
+#description
+ {
+    margin-top: 10%;
+}
+
+fieldset  {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+div {
+    margin-top: 30px;
+}
+
+input, select, option, button {
+    font-family: 'Mali', cursive;
+    padding: 2%;
+    justify-content: flex-end;
+    
+
+}
+
+#final {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#submit, #graphButton {
+    width: 45%;
+    background-color: #E75735;
+    color: white;
+    border: none;
+}
+
+.moreDetails {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+canvas {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width:100%; 
+    height:300px;
+    margin-top: 40px;
+   
+}
+
+
